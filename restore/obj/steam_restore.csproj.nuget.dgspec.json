@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\OD\\Jessica\\OneDrive\\Documents\\Steam Archive\\restore\\steam_restore.csproj": {}
+  },
+  "projects": {
+    "D:\\OD\\Jessica\\OneDrive\\Documents\\Steam Archive\\restore\\steam_restore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\OD\\Jessica\\OneDrive\\Documents\\Steam Archive\\restore\\steam_restore.csproj",
+        "projectName": "steam_restore",
+        "projectPath": "D:\\OD\\Jessica\\OneDrive\\Documents\\Steam Archive\\restore\\steam_restore.csproj",
+        "packagesPath": "C:\\Users\\Jessica Murphy\\.nuget\\packages\\",
+        "outputPath": "D:\\OD\\Jessica\\OneDrive\\Documents\\Steam Archive\\restore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jessica Murphy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "framework": "net48",
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.400"
+      },
+      "frameworks": {
+        "net48": {
+          "framework": "net48",
+          "targetAlias": "net48",
+          "dependencies": {
+            "Costura.Fody": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

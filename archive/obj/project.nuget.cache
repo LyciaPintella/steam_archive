@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "GYJX/k3mDMI=",
+  "success": true,
+  "projectFilePath": "D:\\OD\\Jessica\\OneDrive\\Documents\\Steam Archive\\archive\\steam_archive.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jessica Murphy\\.nuget\\packages\\costura.fody\\4.1.0\\costura.fody.4.1.0.nupkg.sha512",
+    "C:\\Users\\Jessica Murphy\\.nuget\\packages\\fody\\6.0.0\\fody.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
