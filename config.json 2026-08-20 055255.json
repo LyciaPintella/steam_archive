@@ -1,0 +1,10 @@
+{
+    "steamLibs": [
+	   "C:\\Games\\Steam\\SteamApps",
+	   "C:\\Program Files (x86)\\Steam\\steamapps",
+	   "D:\\Games\\Steam\\SteamApps",
+	   "E:\\Games\\Steam\\SteamApps"
+    ],
+    "archivePath": "D:\\Games\\Steam\\Backups",
+    "removeAfterArchive": false
+}
