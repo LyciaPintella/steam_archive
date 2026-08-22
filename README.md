@@ -6,6 +6,9 @@ a game to the letter D for delete. K still keeps the game installed.
 I also added a path check for 7-Zip in case you have it installed on your D:\ drive. 7-Zip itself is now called with a
 compression level of 7 instead of 2 to save more disk space.
 
+In case you want to combine several of the .bat file outputs into one script and run it overnight, I've changed the EXE
+called from 7zG.exe to 7z.exe so you can run a single script and archive many games.
+
 ## steam_archive_tools - original description:
 
  I wanted something decoupled from steam to backup and restore my games, so I wrote a small executable to handle this.

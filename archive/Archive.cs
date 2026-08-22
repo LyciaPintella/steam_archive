@@ -15,9 +15,9 @@ namespace steam_tools
 
             // Découverte du dossier d'installation de 7-zip
             string zip = "";
-            if (File.Exists("C:\\Program Files\\7-Zip\\7zG.exe")) zip = "C:\\Program Files\\7-Zip\\7zG.exe";
-            else if (File.Exists("C:\\Program Files (x86)\\7-Zip\\7zG.exe")) zip = "C:\\Program Files (x86)\\7-Zip\\7zG.exe";
-		  else if (File.Exists("D:\\Program Files (x86)\\7-Zip\\7zG.exe")) zip = "D:\\Program Files (x86)\\7-Zip\\7zG.exe";
+            if (File.Exists("C:\\Program Files\\7-Zip\\7z.exe")) zip = "C:\\Program Files\\7-Zip\\7z.exe";
+            else if (File.Exists("C:\\Program Files (x86)\\7-Zip\\7z.exe")) zip = "C:\\Program Files (x86)\\7-Zip\\7z.exe";
+		  else if (File.Exists("D:\\Program Files (x86)\\7-Zip\\7z.exe")) zip = "D:\\Program Files (x86)\\7-Zip\\7z.exe";
 
             // Expressions régulières
             Regex regID = new Regex("\"appid\"\t\t\"(.*)\"");
