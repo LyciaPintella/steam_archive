@@ -10,6 +10,8 @@ compression level of 7 instead of 2 to save more disk space.
 In case you want to combine several of the .bat file outputs into one script and run it overnight, I've changed the EXE
 called from 7zG.exe to 7z.exe so you can run a single script and archive many games.
 
+This is just a personal preference, but I removed the date from the .7z backup file name.
+
 ## steam_archive_tools - original description:
 
  I wanted something decoupled from steam to backup and restore my games, so I wrote a small executable to handle this.

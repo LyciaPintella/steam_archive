@@ -111,7 +111,8 @@ namespace steam_tools
                 if (key == "D" || key == "K")
                 {
                     var paths = GetPaths(selectedGame);
-                    var archiveName = $"{selectedGame.Name} ({DateTime.Now.ToString("yyyy-MM-dd")})";
+                    //var archiveName = $"{selectedGame.Name} ({DateTime.Now.ToString("yyyy-MM-dd")})";
+				var archiveName = $"{selectedGame.Name}";
                     //var script = new List<string> { $"{selectedGame.LibPath[0]}:", $"cd \"{selectedGame.LibPath}\"", $"7z a -t7z \"{Path.Combine(config.archivePath, archiveName)}\" \"{string.Join("\" \"", paths.ToArray())}\"" };
                     var script = new List<string> {
                         $"{selectedGame.LibPath[0]}:",
