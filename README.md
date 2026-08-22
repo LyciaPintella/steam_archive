@@ -1,7 +1,8 @@
 # steam_archive_tools - fork by Lycia Pintella
 
-This version of Steam Archive Tools has two simple changes from the original - I changed the key to archive and delete
-a game to the letter D for delete. K still keeps the game installed.
+This version of Steam Archive Tools has a few simple changes from the original:
+
+I changed the key to archive and delete a game to the letter D for delete. K still keeps the game installed.
 
 I also added a path check for 7-Zip in case you have it installed on your D:\ drive. 7-Zip itself is now called with a
 compression level of 7 instead of 2 to save more disk space.
